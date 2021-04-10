@@ -1,0 +1,6 @@
+/node_modules
+nodes/litecoin-0.17.1/bin/nohup.out
+nodes/dogecoin-1.14.2/bin/nohup.out
+nodes/bitcoin-0.20.0/bin/nohup.out
+nodes/bitcoin-abc-0.21.8/bin/nohup.out
+nodes/geth-linux-amd64-1.9.15-0f77f34b/bin/nohup.out

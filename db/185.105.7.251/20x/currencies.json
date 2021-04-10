@@ -1,0 +1,6 @@
+{ "_id" : { "$oid" : "6028301b6b815f4dea1710f3" }, "currency" : "native_btc", "data" : "[]", "updated_at" : { "$date" : "2021-02-13T20:01:31.216+0000" }, "created_at" : { "$date" : "2021-02-13T20:01:31.216+0000" } }
+{ "_id" : { "$oid" : "6028334c2ca3b92d62309762" }, "currency" : "native_eth", "data" : "[]", "updated_at" : { "$date" : "2021-02-13T20:15:08.997+0000" }, "created_at" : { "$date" : "2021-02-13T20:15:08.997+0000" } }
+{ "_id" : { "$oid" : "6028334d2ca3b92d62309763" }, "currency" : "native_ltc", "data" : "[]", "updated_at" : { "$date" : "2021-02-13T20:15:09.837+0000" }, "created_at" : { "$date" : "2021-02-13T20:15:09.837+0000" } }
+{ "_id" : { "$oid" : "6028334ef11f1c5ea3497712" }, "currency" : "native_doge", "data" : "[]", "updated_at" : { "$date" : "2021-02-13T20:15:10.788+0000" }, "created_at" : { "$date" : "2021-02-13T20:15:10.788+0000" } }
+{ "_id" : { "$oid" : "6028334ff11f1c5ea3497713" }, "currency" : "native_bch", "data" : "[]", "updated_at" : { "$date" : "2021-02-13T20:15:11.701+0000" }, "created_at" : { "$date" : "2021-02-13T20:15:11.701+0000" } }
+{ "_id" : { "$oid" : "602834b039510e381d7b9c12" }, "currency" : "bg_btc", "data" : "[]", "updated_at" : { "$date" : "2021-02-13T20:21:04.351+0000" }, "created_at" : { "$date" : "2021-02-13T20:21:04.351+0000" } }

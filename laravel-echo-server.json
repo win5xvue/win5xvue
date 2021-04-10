@@ -1,0 +1,39 @@
+{
+	"authHost": "https://websiteurlhere",
+	"authEndpoint": "/broadcasting/auth",
+	"clients": [
+		{
+			"appId": "38e18b1ce2ae0a43",
+			"key": "a08a03e40c0657a7687b311e6813430b"
+		}
+	],
+	"database": "redis",
+	"databaseConfig": {
+		"redis": {"password":"fdshoidsfhsdfhysdfoihfsdiosdfhisdfhodsfihsfdohifsfihsfohsfoisd"},
+		"sqlite": {
+			"databasePath": "/database/laravel-echo-server.sqlite"
+		},
+		"listenWhishper": true,
+		"prefixWhishper": "whisper"
+	},
+	"devMode": true,
+	"host": null,
+	"port": "2087",
+	"protocol": "https",
+	"socketio": {},
+	"secureOptions": 67108864,
+	"sslCertPath": "/var/www/html/sslkeyhere.pem",
+	"sslKeyPath": "/var/www/html/sslkeyhere.key",
+	"sslCertChainPath": "",
+	"sslPassphrase": "",
+	"subscribers": {
+		"http": true,
+		"redis": true
+	},
+	"apiOriginAllow": {
+		"allowCors": true,
+		"allowOrigin": "http://5.196.205.114:80",
+		"allowMethods": "GET, POST",
+		"allowHeaders": "Origin, Content-Type, X-Auth-Token, X-Requested-With, Accept, Authorization, X-CSRF-TOKEN, X-Socket-Id"
+	}
+}

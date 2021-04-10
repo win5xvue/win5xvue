@@ -1,0 +1,27 @@
+{
+    "name": "morrislaptop/laravel-queue-clear",
+    "description": "Command for wiping your queues clear",
+    "authors": [
+        {
+            "name": "Craig Morris",
+            "email": "craig.michael.morris@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": ">=5.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Morrislaptop\\LaravelQueueClear\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Morrislaptop\\LaravelQueueClear\\LaravelQueueClearServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}

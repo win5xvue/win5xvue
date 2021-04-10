@@ -1,0 +1,6 @@
+{ "_id" : { "$oid" : "6028347948fc857daa728f02" }, "user" : "6028307810b58e1ff5728522", "type" : "balance", "data" : { "currency" : "btc", "balance" : "0.1", "id" : "6028307810b58e1ff5728522" }, "time" : 1613247609 }
+{ "_id" : { "$oid" : "6028347a5f3d6b14723299d2" }, "user" : "6028307810b58e1ff5728522", "type" : "balance", "data" : { "currency" : "btc", "balance" : "0.10", "id" : "6028307810b58e1ff5728522" }, "time" : 1613247610 }
+{ "_id" : { "$oid" : "6028347acfc5b860bd6d19f2" }, "user" : "6028307810b58e1ff5728522", "type" : "balance", "data" : { "currency" : "btc", "balance" : "0.100", "id" : "6028307810b58e1ff5728522" }, "time" : 1613247610 }
+{ "_id" : { "$oid" : "6028347acfc5b860bd6d19f3" }, "user" : "6028307810b58e1ff5728522", "type" : "balance", "data" : { "currency" : "btc", "balance" : "0.1000", "id" : "6028307810b58e1ff5728522" }, "time" : 1613247610 }
+{ "_id" : { "$oid" : "60283481eeaa5140ac7d22d2" }, "user" : "6028307810b58e1ff5728522", "type" : "balance", "data" : { "currency" : "btc", "balance" : "0.00000000", "id" : "6028307810b58e1ff5728522" }, "time" : 1613247617 }
+{ "_id" : { "$oid" : "6028348448fc857daa728f03" }, "user" : "6028307810b58e1ff5728522", "type" : "balance", "data" : { "currency" : "btc", "balance" : "0.10000000", "id" : "6028307810b58e1ff5728522" }, "time" : 1613247620 }

@@ -1,0 +1,58 @@
+{
+    "name": "laravel-notification-channels/discord",
+    "description": "Laravel notification driver for Discord.",
+    "keywords": [
+        "laravel",
+        "notification",
+        "driver",
+        "channel",
+        "discord"
+    ],
+    "homepage": "https://github.com/laravel-notification-channels/discord",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cody Scott",
+            "email": "cs475x@icloud.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^6.3",
+        "illuminate/notifications": "^6.0 || ^7.0",
+        "illuminate/support": "^6.0 || ^7.0",
+        "illuminate/queue": "^6.0 || ^7.0",
+        "illuminate/console": "^6.0 || ^7.0",
+        "textalk/websocket": "^1.2"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.3",
+        "orchestra/testbench": "^5.0",
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "NotificationChannels\\Discord\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NotificationChannels\\Discord\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NotificationChannels\\Discord\\DiscordServiceProvider"
+            ]
+        }
+    }
+}

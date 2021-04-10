@@ -1,0 +1,26 @@
+{
+    "name": "neto737/bitgosdk-php",
+    "description": "A BitGo SDK written in PHP",
+    "type": "library",
+    "keywords": ["bitgo", "sdk", "bitcoin"],
+    "license": "GPL-3.0",
+
+    "authors": [
+        {
+            "name": "Neto Melo",
+            "email": "neto737@live.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "neto737\\BitGoSDK\\": "src/"
+        }
+    },
+
+    "require": {
+        "php": ">=7.0",
+        "ext-curl": "*",
+        "ext-bcmath": "*"
+    }
+}

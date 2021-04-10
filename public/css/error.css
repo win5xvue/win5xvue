@@ -1,0 +1,182 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap);@charset "UTF-8";
+/* ----------------------------------- //
+//      CSS Hacks Mixins for Sass
+// ----------------------------------- //
+
+	How to use:
+
+	@include [Mixin_Name]( 'selector', (property: value) )
+
+	Example:
+
+	@include only_ie9( '.my_element', (color: red) )
+	@include only_ff28_above( '.my_element', (
+		background-color: green,
+		display: flex,
+		margin: 2em,
+	))
+
+	Tips:
+	  - Use firefox mixins before IE mixins. Sometimes Firefox wants to precess the IE css but it can't and skips it's own CSS!
+
+// ----------------------------------- //
+
+	List of Mixins:
+
+	only_ff
+	only_ff2
+	only_ff2_above
+	only_ff3_above
+	only_ff6_above
+	only_ff16_above
+	only_ff21_above
+	only_ff24_above
+	only_ff25_above
+	only_ff26_above
+	only_ff27_above
+	only_ff28_above
+	only_ff30_above
+	only_webkit
+	only_chrome
+	only_safari
+	only_safari9
+	only_ios
+	only_safari_no_ios
+	only_opera9_safari2
+	only_opera
+	only_opera11
+	only_edge
+	only_ie6
+	only_ie7
+	only_ie7_below
+	only_ie8
+	only_ie8_below
+	only_ie9
+	only_ie9_below
+	only_ie10_above
+	only_ie11
+	only_ie11_above
+	no_ie6
+	only_ie9_saf4_above
+	no_ie_safari6
+
+// ----------------------------------- */
+/* ----------------------------------- //
+//          Firefox CSS Hacks
+// ----------------------------------- */
+/*--- Only Firefox ---*/
+/*--- Only Firefox 1.5 and Firefox 2 ---*/
+/*--- Only Firefox ≥ 2 ---*/
+/*--- Only Firefox ≥ 3 ---*/
+/*--- Only Firefox ≥ 6 ---*/
+/*--- Only Firefox ≥ 16 ---*/
+/*--- Only Firefox ≥ 21 ---*/
+/*--- Only Firefox ≥ 24 ---*/
+/*--- Only Firefox ≥ 25 ---*/
+/*--- Only Firefox ≥ 26 ---*/
+/*--- Only Firefox ≥ 27 ---*/
+/*--- Only Firefox ≥ 28 ---*/
+/*--- Only Firefox ≥ 30 ---*/
+/* ----------------------------------- //
+//          Webkit CSS Hacks
+// ----------------------------------- */
+/*--- Only Webkit (Chrome, Safari, Opera ≥ 14) ---*/
+/*--- Only Chrome 28+, Opera ≥ 14 ---*/
+/*--- Only Safari ---*/
+/*--- Only Safari ≥ 9 ---*/
+/*--- Only iOS Safari ≥ 9 ---*/
+/*--- Only Safari ≥ 9 (Non iOS) ---*/
+/*--- Only Opera ≤ 9.27, Safari ≤ 2 ---*/
+/* ----------------------------------- //
+//           Opera CSS Hacks
+// ----------------------------------- */
+/*--- Only Opera ≥ 9.5 ---*/
+/*--- Only Opera ≤ 11 ---*/
+/* ----------------------------------- //
+//     Edge CSS Hacks
+// ----------------------------------- */
+/* ----------------------------------- //
+//     Internet Explorer CSS Hacks
+// ----------------------------------- */
+/*--- Only IE ≤ 6 ---*/
+/*--- Only IE7 ---*/
+/*--- Only IE ≤ 7 ---*/
+/*--- Only IE8 ---*/
+/*--- Only IE ≤ 8 ---*/
+/*--- Only IE9 ---*/
+/*--- Only IE ≤ 9 ---*/
+/*--- Only IE10 ---*/
+/*--- Only IE ≤ 11 ---*/
+/*--- Only IE ≥ 11 ---*/
+/*--- Anything but IE6 ---*/
+/*--- Only IE ≥ 9, safari4, android ≥ 2.3 ---*/
+/* ----------------------------------- //
+//           Other CSS Hacks
+// ----------------------------------- */
+/*--- Everything but IE and Safari ≤ 6 ---*/
+.theme--default .text-success {
+  color: !important;
+}
+.theme--dark .text-success {
+  color: !important;
+}
+
+.theme--default .text-danger {
+  color: !important;
+}
+.theme--dark .text-danger {
+  color: !important;
+}
+
+.theme--default .text-primary {
+  color: #7a7a7a !important;
+}
+.theme--dark .text-primary {
+  color: #a051ea !important;
+}
+
+.theme--default .bg-success {
+  background: !important;
+}
+.theme--dark .bg-success {
+  background: !important;
+}
+
+.theme--default .bg-danger {
+  background: !important;
+}
+.theme--dark .bg-danger {
+  background: !important;
+}
+
+.theme--default .primary {
+  fill: black;
+}
+.theme--dark .primary {
+  fill: white;
+}
+
+.theme--default .secondary {
+  fill: #7a7a7a;
+}
+.theme--dark .secondary {
+  fill: #a051ea;
+}
+
+body {
+  background: #1a191e;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.code {
+  position: absolute;
+  left: 10%;
+  top: 40%;
+}
+.code div:first-child {
+  font-size: 3.5em;
+}
+.code div:last-child {
+  font-size: 1.5em;
+}

@@ -1,0 +1,59 @@
+{
+    "name": "jenssegers/mongodb",
+    "description": "A MongoDB based Eloquent model and Query builder for Laravel (Moloquent)",
+    "keywords": [
+        "laravel",
+        "eloquent",
+        "mongodb",
+        "mongo",
+        "database",
+        "model",
+        "moloquent"
+    ],
+    "homepage": "https://github.com/jenssegers/laravel-mongodb",
+    "authors": [
+        {
+            "name": "Jens Segers",
+            "homepage": "https://jenssegers.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "illuminate/support": "^7.0",
+        "illuminate/container": "^7.0",
+        "illuminate/database": "^7.0",
+        "illuminate/events": "^7.0",
+        "mongodb/mongodb": "^1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.4",
+        "orchestra/testbench": "^5.0",
+        "mockery/mockery": "^1.3.1",
+        "doctrine/dbal": "^2.6",
+        "cedx/coveralls": "^11.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "Jenssegers\\Mongodb": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php",
+            "tests/models",
+            "tests/seeds"
+        ]
+    },
+    "suggest": {
+        "jenssegers/mongodb-session": "Add MongoDB session support to Laravel-MongoDB",
+        "jenssegers/mongodb-sentry": "Add Sentry support to Laravel-MongoDB"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jenssegers\\Mongodb\\MongodbServiceProvider",
+                "Jenssegers\\Mongodb\\MongodbQueueServiceProvider"
+            ]
+        }
+    }
+}

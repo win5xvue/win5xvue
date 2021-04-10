@@ -1,0 +1,11 @@
+/node_modules/*
+.DS_Store
+/vendor
+
+# exclude everything
+resources/views/templates/*
+resources/views/draft/*
+
+# exception to the rule
+!resources/views/draft/.gitkeep
+!resources/views/templates/.gitkeep
